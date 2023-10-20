@@ -6,5 +6,7 @@ def celsius_to_fahr(temp):
 
 print(celsius_to_fahr(32))
 
-def kelv_to_temp(temp):
+
+def fahr_to_temp(temp):
+
     return (temp - 32) * (5/9)
