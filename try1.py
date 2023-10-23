@@ -8,3 +8,5 @@ def string_checker(word):
     return counter
 
 print(string_checker("halla"))
+
+print("testel")
