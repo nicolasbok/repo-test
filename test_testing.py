@@ -23,3 +23,15 @@ assertIn(a,b)
 assertNotIn(a,b)
 assertIsInstance(a,b)
 assertNotIsInstance(a,b)
+
+numbers = [1,2,3,4]
+#numbers.
+
+#Classes
+#We use classes to define new types.
+class Point:
+ def __init__(self, x, y):
+    self.x = x
+    self.y = y
+ def move(self):
+    print("move") 
