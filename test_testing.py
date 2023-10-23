@@ -9,8 +9,7 @@ class testtesting(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-numbers = [1,2,3,4]
-#numbers.
+
 
 assertEqual(a,b)
 assertNotEqual(a,b)
@@ -24,15 +23,3 @@ assertIn(a,b)
 assertNotIn(a,b)
 assertIsInstance(a,b)
 assertNotIsInstance(a,b)
-
-
-
-# Classes
-# We uses classes to define new types
-
-class Point:
- def __init__(self, x, y):
-    self.x = x
-    self.y = y
- def move(self):
-    print("move") 
